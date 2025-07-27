@@ -71,7 +71,11 @@ public class TheFinalKeyword {
             // CORRECT: This line will cause a compilation error.
             // 'this.message' is a final field and cannot be reassigned after its initial
             // assignment in the constructor.
-            this.message = newMessage; // Compilation error here!
+
+
+            // this.message = newMessage; // Compilation error here!
+            
+            
             // The method itself is NOT final, but the attempt to modify a final field
             // within it causes the error.
         }
